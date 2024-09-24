@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Nhà sách ABC </title>
+    </head>
+    <style>
+        .list{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    .sach {
+        text-align: center;
+    }
+    .sach img {
+        width: 150px;
+        height: auto;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.left-menu {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.menu-section {
+    background-color: #e9ecef;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.menu-section h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-section ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.menu-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.right-content {
+            width: 300px;
+            float: right;
+        }
+        marquee {
+            width: 100%;
+            height: 300px;
+        }
+        .khoi11 {
+    width: 250px;
+    padding: 1px;
+    border-style: solid;
+    border-width: 0,5cm;
+    border-radius: 0.2cm ;
+    border-color: rgb(102, 102, 203);
+    background-color: rgb(247, 243, 243);
+        }
+        .daubox1 , .daubox2, .daubox3 {
+            background-color: rgb(102, 102, 203);
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding:20px 20px 10px 10px;
+    border-top-left-radius: 0.2cm;
+    border-top-right-radius: 0.2cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+        }
+        .khoi22{
+            width: 250px;
+            padding: 1px;
+            height: 80px;
+            border-style: solid;
+            border-width: 0,5cm;
+            border-radius: 0.2cm ;
+            border-color: rgb(102, 102, 203);
+            background-color: rgb(247, 243, 243);
+        }
+        .khoi33{
+            width: 250px;
+            padding: 1px;
+            height: 100px;
+            border-style: solid;
+            border-width: 0,5cm;
+            border-radius: 0.2cm ;
+            border-color: rgb(102, 102, 203);
+            background-color: rgb(247, 243, 243);
+        }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.left-menu {
+    width: 300px;
+}
+
+.menu-section {
+    background-color: #e9ecef;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.menu-section h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-section ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.menu-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Định dạng menu chính */
+.menu-bar ul {
+    list-style-type: none;
+    display: flex;
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+.menu-bar ul li {
+    margin-right: 20px;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-bar ul li input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.menu-bar ul li button {
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Định dạng container chính */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Menu bên trái */
+.left-menu, .right-menu {
+    width: 200px;
+}
+
+.menu-section {
+    background-color: #e9ecef;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.menu-section h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu-section ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.menu-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.registration-form {
+    width: 600px;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #007bff;
+}
+
+.registration-form h2 {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.btn-register, .btn-cancel {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+    </style>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="https://phuongnamvina.com/img_data/images/mau-logo-nha-sach.jpg" style="width: 20%; height: 20%;">
+                    <h1>WELCOME TO SÁCH ABC</h1>
+                </div>
+                <div class="registration-form">
+                    <a href="login.html">Đăng nhập</a> |
+                    <a href="register.html">Đăng ký</a> |
+                    <a href="#">Giỏ hàng (trống)</a>
+                </div>
+            </div>        
+        </header>
+        <nav>
+            <nav class="menu-bar">
+                <ul>
+                    <li><a href="header.html">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="Hãy nhập tên sách cần tìm..." />
+                <button type="button">Tìm sách</button>
+            </div>
+        </nav>
+        <div>
+            <article>
+                <aside>
+                    <div class="right-menu">
+                    <div class="left-menu">
+                        <div class="menu-section">
+                        <h3 style="font-size: 25px;"><b>SÁCH THEO CHỦ ĐỀ</b></h3>
+                        <ul>
+                            <li><a href="#">Ngoại ngữ</a></li>
+                            <li><a href="#">Công nghệ thông tin</a></li>
+                            <li><a href="#">Luật</a></li>
+                            <li><a href="#">Văn học</a></li>
+                            <li><a href="#">Khoa học kỹ thuật</a></li>
+                            <li><a href="#">Nông nghiệp</a></li>
+                            <li><a href="#">Lịch sử địa lí</a></li>
+                            <li><a href="#">Kinh tế</a></li>
+                            <li><a href="#">Nghệ thuật sống</a></li>
+                        </ul>
+                        </div>
+                        <div class="menu-section">
+                        <h3 style="font-size: 25px;"><b>SÁCH THEO NHÀ XUẤT BẢN</b></h3>
+                        <ul>
+                            <li><a href="#">Nhà xuất bản trẻ</a></li>
+                            <li><a href="#">NXB thống kê</a></li>
+                            <li><a href="#">Kim đòng</a></li>
+                            <li><a href="#">Đại học quốc gia</a></li>
+                            <li><a href="#">Văn hóa nghệ thuật</a></li>
+                            <li><a href="#">Văn hóa</a></li>
+                            <li><a href="#">Lao động-xã hội </a></li>
+                            <li><a href="#">Khoa học & kỹ thuật</a></li>
+                        </ul>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </aside>
+                <section>
+                    <div class="list">
+                        <div class="sach">
+                            <a href="sach1.html"> 
+                                <p ><strong style="text-align: center; color: blue;">Sách Khoa học 5</strong></p>
+                            </a>
+                            <img src="anh1.jpg">
+                            <img src="anh5.jpg">
+                            <p>Giá:<strong style="color: red">16.000đ</strong></p>
+                        </div>
+                        <div class="sach">
+                            <a href="sach2.html">
+                                <p><strong style="text-align: center;color: blue;">Sách Toán 5 tập 2</strong></p>
+                            </a>
+                            <img src="anh2.jpg">
+                            <img src="anh5.jpg">
+                            <p>Giá:<strong style="color: red"> 18.000đ</strong></p>
+                        </div>
+                        <div class="sach">
+                            <a href="sach3.html">
+                                <p><strong style="text-align: center;color: blue;">Sách Toán 5 tập 1</strong></p>
+                            </a>
+                            <img src="anh3.jpg">
+                            <img src="anh5.jpg">
+                            <p>Giá:<strong style="color: red">18.000đ</strong></p>
+                            </div>
+                            <div class="sach">
+                            <a href="sach4.html">
+                                <p><strong style="color: blue;">Sách Đạo dức 5</strong></p>
+                            </a>
+                            <img src="anh4.jpg">
+                            <img src="anh5.jpg">
+                            <p>Đơn giá:<strong style="color: red"> 9.000đ</strong></p>
+                            </div>
+                        </div>
+                    </body>
+                </section>              
+            </article>
+        </div>
+        <footer>
+            <div class="right-content">
+                <div class="khoi11">
+                <div class="daubox1">SÁCH BÁN NHIỀU</div>
+                <div>
+                <marquee direction="up" scrollamount="3" scrolldelay="100" onMouseMove="this.stop()" onMouseOut="this.start()">
+                <div>
+                    <img src="anh1.jpg" style="height: 100px; width: 70px; padding-left: 10px; padding-top: 10px;">
+                    <a href="sach1.html">Sách Khoa học 5</a>
+                </div>
+                <div>
+                    <img src="anh2.jpg" style="height: 100px; width: 70px; padding-left: 10px;padding-top: 10px;">
+                    <a href="sach2.html">Sách Toán 5 tập 2</a>
+                </div>
+                <div>
+                    <img src="anh3.jpg" style="height: 100px; width: 70px; padding-left: 10px;padding-top: 10px;">
+                    <a href="sach3.html">Sách toán 5 tập 1</a>
+                </div>
+                <div>
+                    <img src="anh4.jpg" style="height: 100px; width: 70px; padding-left: 10px;padding-top: 10px;">
+                    <a href="sach4.html">Sách Đạo đức 5</a>
+                </div>
+                </marquee>
+                </div>
+                </div>
+                <div class="khoi22">
+                <div class="daubox2">LIÊN KẾT WEBSITE</div>
+                <div>
+                <select id="linkSelect" onchange="goToLink(this)">
+                    <option value="">----Chọn trang liên kết----</option>
+                    <option value="">Đại học Thủ Đô Hà Nội</option>
+                    <option value="">Khoa KHTN & CN</option>
+                </select>
+                </div>
+                </div>
+                <div class="khoi33">
+                <div class="daubox3">THỐNG KÊ TRUY CẬP</div>
+                <div>
+                <strong>Tổng truy cập : 3</strong><br>
+                <strong>Đang online: 100</strong>
+                </div>
+                </div>
+            </div>
+        </body>
+        </footer>
+        </body>
+        </html>

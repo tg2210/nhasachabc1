@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng Ký Thành Viên</title>
+    <style>
+        .thongtin{
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        .tatca {
+            width: 10cm;
+            padding: 5px 15px;
+            margin: 5px;
+            background-color: white;
+            border: 1px solid blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="tatca">
+    <h3>Đăng Ký Thành Viên</h3>
+    <div>
+        <fieldset>
+            <legend><strong>Thông tin cá nhân</strong></legend>
+            <table>
+                <tr>
+                    <td>Họ và tên:</td>
+                    <td>
+                        <input  type="text" name="fullname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ngày sinh:</td>
+                    <td>
+                        <select name="day" id="day">
+                            <script>
+                                for (let i = 1; i <= 31; i++){
+                                    document.write('<option value="${i}">${i}</option>');
+                                }
+                            </script>
+                        </select>
+                        Tháng
+                        <select name="month" id="month">
+                            <script>
+                                for (let i=1; i<=12;i++){
+                                    document.write('<option value="${i}">${i}</option>');
+                                }
+                            </script>
+                        </select>
+                        Năm <input type="text" name="year" size="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input type="radio" name="gender" value="Nam"> Nam
+                        <input type="radio" name="gender" value="Nữ"> Nữ
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</td>
+                    <td><textarea name="address" rows="3" class="thongtin" reqquired></textarea></td>
+                </tr>
+                <tr>
+                    <td>Điện thoại:</td>
+                    <td><input type="text" name="phone" class="thongtin" reequired> </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" class="thongtin" required></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend><strong>Thông tin đăng nhập</legend></strong>
+            <table>
+                <tr>
+                    <td>Tên dăng nhập:</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Nhập lại mật khẩu:</td>
+                    <td><input type="password" name="confirm_password" required></td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    <div style="text-align: center; margin-top: 10px">
+    <button type="submit">Đăng ký</button>
+    <button type="reset">Hủy</button>
+    </div>
+</body>
+</html>
+    
